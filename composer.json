@@ -1,0 +1,18 @@
+{
+    "name": "tasha_shwartz/hackers-poulette",
+    "description": "exercise",
+    "autoload": {
+        "psr-4": {
+            "TashaShwartz\\HackersPoulette\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tasha",
+            "email": "nataliiamelnykova9@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
