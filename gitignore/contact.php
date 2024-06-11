@@ -90,14 +90,14 @@ if (empty($errors)) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'nataliiamelnykova9@gmail.com';
-        $mail->Password = 'mtvf esmo xjik jfeg';
+        $mail->Username = 'nataliiamelnykova921@gmail.com';
+        $mail->Password = 'bhjn kfzm tdbu hulk';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
         //recipients
         $mail->setFrom($email, "$firstName $lastName");
-        $mail->addAddress('nataliiamelnykova9@gmail.com');
+        $mail->addAddress('nataliiamelnykova921@gmail.com');
 
         //content
         $mail->isHTML(false);
